@@ -1,11 +1,11 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Dashboard from './pages/Dashboard';
-import Products from './pages/Products';
-import Users from './pages/Users';
-import PrivateRoute from './components/PrivateRoute';
+import Login from './front-end/src/pages/Login';
+import Register from './front-end/src/pages/Register';
+import Dashboard from './front-end/src/pages/Dashboard';
+import Products from './front-end/src/pages/Products';
+import Users from './front-end/src/pages/Users';
+import PrivateRoute from './front-end/src/components/PrivateRoute';
 
 export default function App(){
   return (
